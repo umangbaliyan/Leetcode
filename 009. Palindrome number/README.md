@@ -12,25 +12,47 @@ A palindrome number reads the same forward and backward.
 
 ### Example 1
 
-**Input:** `x = 121`
+**Input:** 
+```text
+x = 121
+```
 
-**Output:** `true`
+**Output:** 
+```text
+true
+```
 
 **Explanation:** 121 reads as 121 from left to right and from right to left.
 
 ### Example 2
 
-**Input:** `x = -121`
+**Input:**
 
-**Output:** `false`
+```text
+x = -121
+```
+
+**Output:** 
+
+```text
+false
+```
 
 **Explanation:** From left to right, it reads -121. From right to left, it becomes 121-. Therefore, it is not a palindrome.
 
 ### Example 3
 
-**Input:** `x = 10`
+**Input:** 
 
-**Output:** `false`
+```text 
+x = 10
+```
+
+**Output:** 
+
+```text 
+false
+```
 
 **Explanation:** Reads 01 from right to left. Therefore, it is not a palindrome.
 
@@ -47,7 +69,7 @@ A palindrome number reads the same forward and backward.
 ## Time Complexity
 
 ```text
-O(log10(n))
+O(log n)
 ```
 
 ---
