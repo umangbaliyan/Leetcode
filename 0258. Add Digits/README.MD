@@ -1,4 +1,3 @@
-````md
 # Add Digits
 
 ## Problem Statement
